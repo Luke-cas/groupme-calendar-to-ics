@@ -3,6 +3,11 @@ import os
 import datetime
 
 import utils
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
+
+# Your existing code
 
 app = Flask(__name__)
 with app.app_context():
